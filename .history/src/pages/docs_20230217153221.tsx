@@ -1,0 +1,17 @@
+import { useState, useEffect, useLayoutEffect, useRef, useContext } from "react";
+
+interface IProgress {
+  num: Stri,
+  data: Array<number>,
+}
+
+const DocsPage = (props: IProgress) => {
+  const current = useState<number>(props.num)
+  return (
+    <div>
+      <p>my name is xxx</p>
+    </div>
+  );
+};
+
+export default DocsPage;
